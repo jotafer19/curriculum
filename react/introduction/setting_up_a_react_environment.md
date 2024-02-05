@@ -51,7 +51,7 @@ Vite builds frontend tools for developers and it leverages the latest technologi
 
 ### Creating a React app
 
-Fire up a terminal instance, `cd` over to the folder containing your projects, and enter the following command:
+Please make sure that you are using the _LTS version of Node_, otherwise errors may occur. Fire up a terminal instance, `cd` over to the folder containing your projects, and enter the following command:
 
 ~~~
 npm create vite@latest my-first-react-app -- --template react
@@ -61,7 +61,7 @@ If you see the following output, enter `y` and then press <kbd>enter</kbd>:
 
 ~~~
 Need to install the following packages:
-  create-vite@4.X.X
+  create-vite@5.X.X
 Ok to proceed? (y)
 ~~~
 
@@ -133,7 +133,7 @@ We recommend installing this and becoming comfortable with using it as early as 
 <div class="lesson-content__panel" markdown="1">
 
 1. Review this material by reading through [Vite's Getting Started Page](https://vitejs.dev/guide/).
-2. Check out this [guide for React Developer Tools](https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the languages).
+2. Check out this [guide for React Developer Tools](https://web.archive.org/web/20230127083036/https://www.pluralsight.com/guides/debugging-components-with-react-developer-tools) to begin learning how to utilize it effectively (don't worry if you can't yet understand some of the languages).
 3. Try to clean up your `my-first-react-app` project so that it no longer displays the default page, see if you can get it to display a "Hello, World!" message instead.
 </div>
 
@@ -141,13 +141,14 @@ We recommend installing this and becoming comfortable with using it as early as 
 
 This section contains questions for you to check your understanding of this lesson on your own. If you’re having trouble answering a question, click it and review the material it links to.
 
-* <a class="knowledge-check-link" href="#many-paths">What are some of the ways we can start a new React project?</a>
-* <a class="knowledge-check-link" href="#many-paths">Why should we initially be using pre-made toolchains instead of making our own?</a>
-* <a class="knowledge-check-link" href="#simplifying-the-process">What is Vite and why would we use it?</a>
-* <a class="knowledge-check-link" href="#creating-a-react-app">What command can we run to scaffold a new React project using Vite?</a>
-* <a class="knowledge-check-link" href="#delving-deeper">What is in the `public` folder?</a>
-* <a class="knowledge-check-link" href="#delving-deeper">What is in the `src` folder?</a>
-* <a class="knowledge-check-link" href="#developer-tools">Why are the React Developer Tools useful?</a>
+
+* [What are some of the ways we can start a new React project?](#many-paths)
+* [Why should we initially be using pre-made toolchains instead of making our own?](#many-paths)
+* [What is Vite and why would we use it?](#simplifying-the-process)
+* [What command can we run to scaffold a new React project using Vite?](#creating-a-react-app)
+* [What is in the `public` folder?](#delving-deeper)
+* [What is in the `src` folder?](#delving-deeper)
+* [Why are the React Developer Tools useful?](#developer-tools)
 
 ### Additional resources
 

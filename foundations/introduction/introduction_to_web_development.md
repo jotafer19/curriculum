@@ -42,13 +42,13 @@ Finally, large, older companies still need web developers. These companies offer
 
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
-*   **Computer**
-*   **[Google](https://www.google.com/)**
-*   **Text Editor**
-*   **Command Line Interface (CLI)**
-*   **[Stack Overflow](http://stackoverflow.com/)**
-*   **[Git](https://git-scm.com/)**
-*   **[GitHub](https://github.com/)**
+- **Computer**
+- **[Google](https://www.google.com/)**
+- **Text Editor**
+- **Command Line Interface (CLI)**
+- **[Stack Overflow](http://stackoverflow.com/)**
+- **[Git](https://git-scm.com/)**
+- **[GitHub](https://github.com/)**
 
 ### Motivation
 
@@ -69,7 +69,7 @@ It acknowledges that you need a wide variety of skill sets and languages to reac
 
 The Odin Project is constantly evolving because of people like you who get further along in the curriculum and pay it forward by incrementally improving our content over time.
 
-Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
+Once you start to feel comfortable with the tools, start hacking on open source projects [(like The Odin Project itself)](/contributing). The more you contribute, the more you will learn about what you can do, and the closer you will get to being hireable. These projects will also look great on your resume!
 
 ### Conclusion
 
@@ -79,7 +79,7 @@ In this "Foundations" course, you'll take a journey through the entire spectrum 
 
 The following courses will dive deep into these topics. You will build dozens of scripts, projects, and websites to cement those skills that will get you hired.
 
-Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
+Getting all the way there is going to be challenging. In fact, you should check out the post ["Why Learning to Code is **So Damn Hard**"](https://web.archive.org/web/20230630111131/https://www.thinkful.com/blog/why-learning-to-code-is-so-damn-hard/) so you have a good idea of what the journey ahead is like. But what worthwhile thing is truly easy?
 
 Yes, it's going to be challenging.
 
@@ -87,15 +87,15 @@ But it's also going to be fun.
 
 And it might even be life changing, too.
 
-*What are you waiting for?*
+_What are you waiting for?_
 
 ### Additional resources
 
 This section contains helpful links to related content. It isn’t required, so consider it supplemental.
 
-*   [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
-*   [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
-*   [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
-*   [FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
-*   [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
-*   [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
+- [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
+- [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
+- [Jared the Nerd: What makes a good Developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
+- [FreeCodeCamp: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://www.freecodecamp.org/news/things-i-wish-someone-had-told-me-when-i-was-learning-how-to-code-565fc9dcb329/)
+- [TechCrunch: Don't Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
+- [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)

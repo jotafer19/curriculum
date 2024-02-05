@@ -13,7 +13,7 @@ This section contains a general overview of topics that you will learn in this l
 
 ### Objects
 
-Objects are a _very_ important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects.  The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics.  There'll be an in-depth dive later.
+Objects are a _very_ important part of the JavaScript language, and while for the most part you can accomplish simple and even intermediate tasks without worrying about them, any real project that you're going to attempt is going to feature Objects. The uses of Objects in JavaScript can get deep relatively quickly, so for the moment we're only going to cover the basics.  There'll be an in-depth dive later.
 
 1. [This JavaScript.info](https://javascript.info/object) article is the best place to get started with Objects.
 2. [The MDN tutorial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Basics) isn't bad either, so check it out if you need another take on the subject.
@@ -29,17 +29,18 @@ Besides being a quick and handy way to store data, arrays also have a set of fun
 ### Assignment
 
 <div class="lesson-content__panel" markdown="1">
-At this point you just need a little more practice!  Go back to the [JavaScript exercises](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the Fundamentals 4 project and complete the following:
 
-* calculator
-* palindromes
-* fibonacci
-* getTheTitles
-* findTheOldest
+1. At this point you just need a little more practice!  Go back to the [JavaScript exercises repository](https://github.com/TheOdinProject/javascript-exercises) that we introduced in the [Fundamentals Part 4](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4) assignment. Review each README file prior to completing the following exercises in order:
+    - `08_calculator`
+    - `09_palindromes`
+    - `10_fibonacci`
+    - `11_getTheTitles`
+    - `12_findTheOldest`
 
-Don't remember how to setup and test the exercises? No worries! Check out the [Fundamentals Part 4 lesson](https://www.theodinproject.com/lessons/foundations-fundamentals-part-4#assignment) for a refresher. If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our Discord!
+    Note: Solutions for these exercises can be found in the `solution` folder of each exercise.
 
-Note: Solutions for these exercises can be found in the 'solutions' folder of each exercise.
+If you feel yourself getting overwhelmed or stuck, don't be afraid to go back and review or ask for help on our [Discord](https://discord.gg/fbFCkYabZB)!
+
 </div>
 
 ### Knowledge check

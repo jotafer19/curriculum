@@ -24,12 +24,13 @@ Say you are cooking some chicken. If you want to cook it well and nice, you will
 
 This is common to all websites, you set the oven up for what you want (visit any URL, like [https://theodinproject.com/](https://theodinproject.com/)), wait for the oven to be done with the cooking (the loading screen), and tada, enjoy your delicious food (your page is ready for use). But what if you forgot to add some spices before you cooked it up? You have to repeat this flow again:
 
-1. Add the spices to the chicken
-2. Put it back into the oven and set it up to be reheated
-3. Wait for it to be nice and warm
-4. Now you can eat it!
+1. Get up from your seat
+2. Add the spices to the chicken
+3. Go back to the oven, put the chicken back in and set it up to be reheated
+4. Wait for it to be nice and warm
+5. Now you can eat it!
 
-Here is where we reiterate, **the chicken needs to be reheated**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring the microwave to the table to ensure that you don't run into the "missing spices" issues. The link requests are intercepted by the Javascript that you write, instead of letting them go directly to the server.
+Here is where we reiterate, **you need to get up from your seat**. In a general multi-page application (MPAs), the browser reloads every time you click on a link to navigate. With client-side routing, **you never leave the page you are on** - you bring a microwave to the table to ensure that you don't have to get up from your seat should you ever run into the "missing spices" issue. The link requests are intercepted by the Javascript that you write, instead of letting them go directly to the server.
 
 ### A Reactive solution
 
@@ -97,7 +98,7 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/profile",
+    path: "profile",
     element: <Profile />,
   },
 ]);
@@ -235,7 +236,7 @@ Check out the `/profile`, `/profile/popeye` and `/profile/spinach` pages. The `<
 
 If you want to render something as a default component when no path is added to Profile, you can add an index route to the children! 
 
-Create a default Profile component:
+Create a DefaultProfile component:
 
 ~~~jsx
 const DefaultProfile = () => {
@@ -282,7 +283,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 If you visit the `/profile` path now, you should be able to see some default content where the `Outlet` is rendered when the index path is rendered!
 
-But this example brings another dillemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
+But this example brings another dilemma. Sometimes, we want to render content according to the URLs. That, here, would mean that we should be able to render content dynamically, from the component itself. Thankfully, you can do so with dynamic segments! Change the routes to be the following:
 
 ~~~jsx
 import React from "react";
@@ -361,7 +362,7 @@ const ErrorPage = () => {
 export default ErrorPage;
 ~~~
 
-Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths.
+Add the `errorElement` to the configuration, and verify that it renders an error page by going to the `/profile` path or any unmentioned paths. We'll wire this back up in the assignment.
 
 ~~~jsx
 import React from "react";
@@ -452,7 +453,7 @@ You should now have enough basics to get started with React routing. There are a
 <div class="lesson-content__panel" markdown="1">
 
 1.  [This article on SPAs and client-side routing by Ben Holmes](https://bholmes.dev/blog/spas-clientside-routing/) goes through a lot of the routing concepts concisely.
-2.  Go and add a few new routes to the application we created above; playing around with it is the best practice. Consider deleting it completely and rewriting it for practice.
+2.  Go and fix the `/profile` page to display something more useful than an error page. Then, add a few new routes to the application we created above; This was a dense lesson, so take some time to play with the new tools you've learned. Consider deleting it completely and rewriting it using what you know.
 3.  The [React Router tutorial](https://reactrouter.com/en/main/start/tutorial) goes through a lot of the stuff discussed in this lesson and much more. Have a read through the sections up to "Nested Routes".
 4.  Browse through the [React Router documentation](https://reactrouter.com/en/main). Again, you don't need to read through all of it, nor understand all of it. Just browse through the concepts we discussed here and re-read them. Look into the other features that React Router offers. This is a great resource to refer back to.
 
@@ -476,4 +477,4 @@ This section contains helpful links to related content. It isn’t required, so 
 
 - Among the many ways to make protected routes, a few ways are provided below:
     - [This Stack Overflow answer](https://stackoverflow.com/a/64347082/19051112) uses a function to generate the route config object passed to `createBrowserRouter`. The function conditionally generates the different paths.
-    - [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/tree/master/src/components) creates a special Protected Route component that conditionally displays elements as necessary.
+    - [This demonstration project](https://github.com/iammanishshrma/react-protected-routes/blob/master/src/routes/ProtectedRoute.jsx) creates a special Protected Route component that conditionally displays elements as necessary.

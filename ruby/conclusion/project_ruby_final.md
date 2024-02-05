@@ -1,4 +1,4 @@
-### You've come a long way.  Now it's time to prove how much you've learned.
+### You've come a long way.  Now it's time to prove how much you've learned
 
 Chess is a classic game that appears very complicated at first but can be broken down into logical steps that make it a great Ruby capstone project.  If you've never played, be sure to read up on the rules (see the [Wikipedia Page](http://en.wikipedia.org/wiki/Chess)) first.
 
@@ -18,10 +18,10 @@ This is a great project to have as a part of your portfolio going forward becaus
   5. Do your best to keep your classes modular and clean and your methods doing only one thing each.  This is the largest program that you've written, so you'll definitely start to see the benefits of good organization (and testing) when you start running into bugs.
   6. Unfamiliar with Chess? Check out some of the additional resources to help you get your bearings.
   7. Have fun!  Check out the [unicode characters](http://en.wikipedia.org/wiki/Chess_symbols_in_Unicode) for a little spice for your gameboard.
-  8. (Optional extension) Build a very simple AI computer player (perhaps who does a random legal move)
+  8. (Optional extension) Build a very basic AI computer player (perhaps who does a random legal move)
 </div>
 
-### Additional Resources
+### Additional resources
 This section contains helpful links to other content. It isn't required, so consider it supplemental.
 
 * [Illustrated rules of Chess](http://www.chessvariants.org/d.chess/chess.html)
